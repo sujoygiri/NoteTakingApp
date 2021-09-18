@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block bodyblock %}
+<div class="container">
+    {% for message in messages %}
+    <h3 class="bg-danger"> {{message}} </h3>
+    
+    {% endfor %}
+</div>
+<div class="container">
+    <form method="POST">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="note_subject" class="form-label mt-4">Note Subject</label>
+            <input type="text" name="updated_note_subject" value="{{note.note_sub}}" class="form-control" id="note_subject">
+        </div>
+        <div class="mb-3">
+            <label for="note_description" class="form-label">Note Details</label>
+            <textarea class="form-control" name="updated_note_details" id="note_description" cols="30" rows="10">{{note.note_detail}}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+</div>
+<div class="container mt-3">
+    <a class="btn btn-info" href="{% url 'create_note:view' %}">Go Back</a>
+</div>
+{% endblock bodyblock %}

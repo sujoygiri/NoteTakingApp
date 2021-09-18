@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+<div class="container">
+    {% for message in messages %}
+    <h3 style="color: rgb(115, 255, 0);"> {{message}} </h3>
+    
+    {% endfor %}
+</div>
+<div class="container mt-4">
+    <h1 style="font-size: 4em;">Welcome To Note Taking</h1><br>
+    <h3 style="color: chartreuse;">Here You Can Easily Create Your Note And Save Them</h3><br>
+    <h4 style="color: rgb(251, 255, 0);">For Create Note Click Below</h4>
+    <a class="btn btn-primary mt-4" href="{% url 'create_note:create' %}" type="button">Create Note</a>
+    <a class="btn btn-primary mt-4" href="{% url 'create_note:view' %}" type="button">View Note</a>
+</div>
+
+{% endblock bodyblock %}

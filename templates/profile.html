@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container mt-4">
+
+    <div>
+        <label style="color: #bafa0c;" for="u_name">My Name:</label>
+        <h4 id="u_name" style="color: #0cfaee; text-transform: lowercase;"> {{ user.username }}</h4>
+    </div>
+    <div>
+        <label style="color: #bafa0c;" for="u_email">My Email:</label>
+        <h4 id="u_email" style="color: #0cfaee; text-transform: lowercase;"> {{ user.email }}</h4>
+    </div>
+    
+    
+</div>
+
+
+{% endblock bodyblock %}
+
+
+
