@@ -1,0 +1,40 @@
+======================================================================================================================================
+Learning paths
+======================================================================================================================================
+
+Lex Course: 
+
+https://lex.infosysapps.com/en/app/toc/lex_auth_0127858350250639361243/overview
+
+
+Microsoft Videos: 
+
+https://docs.microsoft.com/en-us/learn/certifications/exams/az-900
+
+
+Udemy Course: 
+
+https://www.udemy.com/course/microsoft-azure-beginners-guide/learn/lecture/11398994?start=180#content
+
+https://www.udemy.com/course/az-900-azure-tutorial/learn/lecture/19479106?start=0#content
+
+https://www.udemy.com/course/learn-fundamentals-of-cloud-thru-microsoft-azure/learn/lecture/14728472?start=0#overview
+
+
+======================================================================================================================================
+Practice test Links
+======================================================================================================================================
+
+https://lex.infosysapps.com/en/app/social/blogs/e8134920-a7fb-11eb-98b8-3deb8ed98c3c
+
+https://www.udemy.com/course/az-900-microsoft-azure-fundamentals-practice-test-2021/learn/quiz/5257484#overview
+
+https://www.itexams.com/exam/AZ-900 
+
+https://www.certlibrary.com/exam/AZ-900 
+
+https://www.dumpsolutions.com/AZ-900-dumps/ 
+
+https://marczak.io/az-900/#ep00 
+
+https://www.examtopics.com/exams/microsoft/az-900/view/
